@@ -1605,9 +1605,9 @@
         _createClass(AppComponent, [{
           key: "ngOnInit",
           value: function ngOnInit() {
-            this.authService.autoAuthUser(); // this.router.navigate(['/treatments']);
-
-            this.router.navigate(['/servicesinfo']); //   this.router.events.subscribe((evt) => {
+            this.authService.autoAuthUser();
+            this.router.navigate(['/treatments']); // this.router.navigate(['/servicesinfo']);
+            //   this.router.events.subscribe((evt) => {
             //     if (!(evt instanceof NavigationEnd)) {
             //         return;
             //     }

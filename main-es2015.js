@@ -954,8 +954,8 @@ let AppComponent = class AppComponent {
     }
     ngOnInit() {
         this.authService.autoAuthUser();
-        // this.router.navigate(['/treatments']);
-        this.router.navigate(['/servicesinfo']);
+        this.router.navigate(['/treatments']);
+        // this.router.navigate(['/servicesinfo']);
         //   this.router.events.subscribe((evt) => {
         //     if (!(evt instanceof NavigationEnd)) {
         //         return;
