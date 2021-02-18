@@ -1,0 +1,11 @@
+{
+    "env": {
+        "name": "#{envName}"
+    },
+    "STAFF": {
+        "USERIDLIST": "['UID1', 'UID2]"
+    },
+    "PRICING": {
+        "GST": 18
+    }
+}
